@@ -2,23 +2,40 @@
 Simple test application to generate the tree of nodes and manipulate it.
 ### Requirements
 > Python 3
-## How to run it
-### Manually
-Create and activate the virtual env:
+### How to run it
+Execute the `main.py` file :)
 ```commandline
-python3 -m venv ./venv
-source ./venv/bin/activate
+python3 main.py
 ```
-Run the `main.py` file :)
+### Example of the program output:
 ```commandline
-python main.py
-```
-### Using the `sh` script
-Grant permissions to the `sh` script
-```commandline
-chmod 777 ./run_nodes_tree.sh
-```
-Execute the `sh` script
-```commandline
-./run_nodes_tree.sh
+Please specify the index of the node to change: 4
+Ready state for node 4 was changed to True
+ Node 0 not ready
+
+- Node 1 not ready
+
+-- Node 5 not ready
+
+--- Node 8 not ready
+
+- Node 2 not ready
+
+-- Node 7 not ready
+
+- Node 3 not ready
+
+-- Node 6 not ready
+
+- Node 4 ready
+
+1 (or `help`) - Help
+2 - Change node ready state
+3 - Add new node
+4 - Remove node
+5 - Print nodes tree
+6 - Re-generate nodes tree
+7 - Exit
+Choose the command: 7
+Exiting, bye bye :)
 ```
