@@ -1,7 +1,7 @@
 # Nodes tree
 Simple test application to generate the tree of nodes and manipulate it.
 ### Requirements
-> Python 3
+> Python 3.6 or higher (Python 3.10 was used for the implementation)
 ### How to run it
 Execute the `main.py` file :)
 ```commandline
